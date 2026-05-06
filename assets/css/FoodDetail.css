@@ -1,0 +1,303 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+
+#header {
+  background-color: rgb(13, 18, 50);
+  padding: 16px 0;
+}
+
+#header .container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.navigation a:hover {
+  color: rgb(206, 0, 0);
+}
+
+#food-detail {
+  padding: 80px 0;
+}
+
+#food-detail .container {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.food-image img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.food-info h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d31a1a;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.rating span {
+  color: #666;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.description {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.quantity button {
+  border: none;
+  background-color: #eee;
+  font-size: 20px;
+  width: 32px;
+  height: 40px;
+}
+
+.quantity input {
+  width: 50px;
+  text-align: center;
+  border: none;
+
+  font-size: 16px;
+}
+
+.btn-add {
+  background-color: #d31a1a;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  background-color: #b10f0f;
+}
+
+
+.right-info h1 {
+   color: burlywood;
+   text-transform: uppercase;
+   margin-bottom: 24px;
+}
+
+.copyright {
+   padding: 20px 0;
+   background-color: black;
+}
+
+.copyright p {
+   color: white;
+   width: 100vw;
+   text-align: center;
+}
+
+.copyright span {
+   color: rgb(194, 119, 13);
+}
+
+.footer-menu {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.footer-menu a {
+   color: white;
+   text-decoration: none;
+}
+
+.footer-menu a:hover {
+   color: rgb(206, 0, 0); 
+}
+
+#product-section {
+   background-color: rgb(255, 255, 255);
+}
+
+#product-section h2{
+   text-align: center;
+   color: rgb(206, 0, 0);
+   margin-top: 30px;
+}
+#product-section .container h1 {
+   margin-bottom: 36px;
+   text-align: center;
+}
+
+.product-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.product-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(251, 242, 231);
+   width: 240px;
+   padding-bottom:20px;
+}
+
+.product-image {
+   width: 150px;
+   padding: 30px;
+}
+
+.product-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+}
+
+.product-card .product-button{
+   border-radius: 18px;
+   background-color: #080808;
+   color: white;
+   text-transform: uppercase;
+   padding:8px 16px;
+   font-size: 12px;
+}
+
+.product-price{
+   color: red;
+}
+#footer {
+  margin-top: 60px;
+  background-color: #0d1222; 
+  color: #bbb;
+  padding-top: 70px;
+}
+
+#footer .footer-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-col h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer-col p {
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-menu a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #d31a1a; 
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.contact-info li {
+  margin-bottom: 8px;
+}
+
+.copyright {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copyright p {
+  color: #999;
+  font-size: 14px;
+}
+
+.copyright span {
+  color: #d31a1a;
+  font-weight: bold;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/shop.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <img
+            src="https://wordpress.themehour.net/pizzan/wp-content/uploads/2023/06/logo-white.svg"
+            alt=""
+          />
+        </div>
+        <div class="navigation">
+          <div class="nav-left">
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">Shop</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">Contact Us</a>
+          </div>
+          <div class="nav-right">
+            <a href="./login.html">
+              <button id="login-btn">Đăng nhập</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="product-section">
+      <div class="container">
+        <h2>Introducing</h2>
+        <h1>Our menu</h1>
+        <div class="product-list" id="product-list">
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer">
+      <div class="container">
+        <div class="footer-info">
+          <div class="footer-col">
+            <div class="logo">
+              <img
+                src="https://wordpress.themehour.net/pizzan/wp-content/uploads/2023/06/logo-white.svg"
+                alt="Logo"
+              />
+            </div>
+            <p>
+              Delicious meals, crafted with love and passion. Experience the
+              taste of authentic flavors made from the freshest ingredients
+              every day.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h1>Explore</h1>
+            <div class="footer-menu">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Menu</a>
+              <a href="">Shop</a>
+              <a href="">Contact</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h1>Contact</h1>
+            <ul class="contact-info">
+              <li>📍 123 Main Street, Hometown</li>
+              <li>📞 +1 234 567 890</li>
+              <li>✉️ info@example.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>© 2025 <span>Pizzan</span>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+      <script type="module" src="../assets/js/product.js"></script>
+      <script type="module">
+        import { renderProducts } from "../assets/js/product.js";
+        renderProducts("product-list")
+      </script>
+  </body>
+</html>

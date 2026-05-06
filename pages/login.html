@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/login.css" />
+</head>
+<body>
+    <div id="layer">
+        <form action="" id="login-form">
+            <img src="https://wordpress.themehour.net/pizzan/wp-content/uploads/2023/06/logo-white.svg">
+            <label for="Username">Username or Email: </label>
+            <input type="text" name="Username" id="email"/>
+            <span style ="color: red;font-size: 12px;" id ="email-error"></span>
+
+            <label for="Password">Password: </label>
+            <input type="password" name="Password" id="password"/>
+            <span style ="color: red;font-size: 12px;" id ="password-error"></span>
+            <button type="submit" id="login-btn">Login</button>
+            <a href="../pages/food.html">Continue as guest</a>
+            <a href="../pages/signup.html">Dont have an account.</a>
+
+        </form>
+    <button type="button" id="google-login-btn">Login with Google</button>
+    </div>
+    <script type="module" src="../assets/js/firebase_config.js"></script>
+    <script type="module" src="../assets/js/login.js"></script>
+</body>
+</html>
